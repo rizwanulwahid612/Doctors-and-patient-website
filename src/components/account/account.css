@@ -1,0 +1,61 @@
+.account {
+    margin-left: 50px;
+    width: 50%;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 12px;
+
+}
+.color{
+    color: white;
+}
+.account > span:last-child {
+    cursor: pointer;
+}
+
+
+
+.button {
+    background: var(--successGreen);
+    color: var(--fontPrimary);
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.buttonLog {
+    background:darkred;
+    color: var(--fontPrimary);
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+}
+
+
+.button:hover {
+    background: var(--fontPrimary);
+    color: #fff;
+}
+
+.button:hover span {
+    color: #fff;
+}

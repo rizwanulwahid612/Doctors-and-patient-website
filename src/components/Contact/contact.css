@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+
+/* custom colors  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bgcolor: #fff;
+  --primary-color: hsl(268, 72%, 50%);
+  --text-color: #fff;
+  --main-text-color: #fff;
+}
+
+html {
+  font-size: 95.5%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+/* --------------------------------- navbar css style starts 
+                        -------------------------------------------------------*/
+
+.btn-style {
+  width: 12rem;
+  height: 3rem;
+  border-radius: 2rem;
+  color: hsl(0, 33%, 94%);
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.btn-style:first-child {
+  margin-right: 2rem;
+}
+
+.btn-style:hover {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(47, 25, 173, 0.5);
+}
+
+.btn-style-border {
+  border: 0.1rem solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+  text-transform: capitalize;
+}
+
+/* --------------------------------- Navbar ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Hero sEction  starts  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Hero sEction  ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Work Section below hero section   starts  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Contact US Section starts  
+                        -------------------------------------------------------*/
+.contactus-section {
+  margin: 1rem 0;
+}
+
+.contact-input-feild {
+  margin-bottom: 1rem;
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #fff;
+  -webkit-appearance: none;
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.form-checkbox-style {
+  margin: 1rem 0;
+}
+
+.contact-rightside form .main-hero-para {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin: 0;
+  font-weight: lighter;
+  width: 5%;
+  padding: 0 100rem;
+}
+/* --------------------------------- Contact US Section ends  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- Footer  Section starts  
+                        -------------------------------------------------------*/
+
+/* --------------------------------- responsive media queries  
+                        -------------------------------------------------------*/
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}

@@ -1,0 +1,107 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+  html{
+   height: 100%;
+  }
+  body{
+   font-family: Arial, Helvetica, sans-serif;
+   color:#333e5a ;
+   min-height: 100%;
+  }
+  h1{
+   font-weight: 1500;
+   padding: 0.4em 0;
+   
+  }
+  #root{
+   min-height: 100vh;
+  }
+  .app{
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+  color:black;
+  
+  }
+  
+  h2{
+   font-weight: 30;
+   margin-bottom: 1em;
+   text-align: center;
+   color:black;
+  }
+  
+  button{
+   background: #333e5a;
+   color: green;
+   font-size: 17px;
+   padding: 0.4em;
+   border-radius: 6px;
+   border: 1px solid transparent;
+   cursor:pointer;
+  }
+  
+  .room{
+   position: relative;
+   background-color: green;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+  }
+  .room button{
+   position: absolute;
+   top:20px;
+   right: 20px;
+  }
+  .room> h3{
+   text-align: center;
+   font-weight: 300;
+   margin-bottom: 1em;
+   color: green;
+  }
+  
+  .local-participant{
+   text-align: center;
+   margin-bottom: 2em;
+  }
+  .remote-participants{
+   display: flex;
+   flex-wrap: nowrap;
+   justify-content: space-between;
+   padding: 0 2em 2em;
+  }
+  .participant{
+  
+
+   padding: 10px;
+   border-radius: 6px;
+   display: inline-block;
+   margin-right: 10px;
+   margin-top: 20px;
+  }
+  .participant:last-child{
+   margin-right: 0;
+  }
+  .participant h3{
+   text-align: center;
+   padding-bottom: 0.5em;
+   color: green;
+  }
+  
+  video{
+   display: flex;
+   margin: 0 auto;
+   border-radius: 6px;
+   flex: 1;
+  }
+  
+  .all-participant{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }

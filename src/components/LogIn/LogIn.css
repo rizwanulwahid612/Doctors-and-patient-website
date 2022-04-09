@@ -1,0 +1,7 @@
+.signup{
+    height: 330px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
